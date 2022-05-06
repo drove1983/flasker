@@ -1,0 +1,19 @@
+<h1>Hello World</h1>
+
+<p>Ovo je moja prva stranica!!!222</p>
+
+
+<p>Moje ime je {{ first_name}}</p>
+
+<p>{{ stuff|safe }}</p>
+
+<h3>Favorite Pizza:</h3>
+
+{% for topping in favorite_pizza %}
+    {{ topping }}<br/>
+
+
+{% endfor %}
+
+<br/><br/>
+{{ favorite_pizza.0}}
